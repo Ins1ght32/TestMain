@@ -17,16 +17,16 @@ pipeline {
 				script {
 					def scannerHome = tool 'SonarQube';
 						withSonarQubeEnv('SonarQube') {
-						sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=Test -Dsonar.sources=."
+						sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=Test -Dsonar.sources=. -Dsonar.host.url=http://172.20.0.2:9000 -Dsonar.token=sqp_a2146df85a7170e3230009c1b2f6425ac08d410f"
 						}
 					}
 				}
 		}
 		
-		stage('Integration') {
+		stage('Integration - Check Server Accessible') {
 			steps {
 				script {
-                    // Check if the web app is up
+                    // Check if the web app is up. PLEASE REMEMBER TO CHANGE THE IP ADDRESS AS DOCKER WILL SET UP A NEW DEFAULT NETWORK WITH DIFFERENT IP ADDRESS
                     sh '''
                         MAX_RETRIES=5
                         RETRY_COUNT=0

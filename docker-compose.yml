@@ -40,8 +40,7 @@ services:
       SONARQUBE_JDBC_USERNAME: admin
       SONARQUBE_JDBC_PASSWORD: 2200648
     volumes:
-      - ./sonarqube_data:/opt/sonarqube/data
-      - ./sonarqube_logs:/opt/sonarqube/logs
+      - "C:\Users\Joseph Lim\Desktop\SIT Stuff\ICT2216 SSD\Lab Test\Main\Question\sonarqube_data:/opt/sonarqube/data"
      
 volumes:
   jenkins_data:
