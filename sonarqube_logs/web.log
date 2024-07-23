@@ -1,0 +1,285 @@
+2024.07.23 07:55:59 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2024.07.23 07:55:59 INFO  web[][o.s.s.a.TomcatHttpConnectorFactory] Starting Tomcat on port 9000
+2024.07.23 07:56:00 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 10.5.1.90531 / a69dd88808638ec33015277e236bca319314ce8b
+2024.07.23 07:56:00 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2024.07.23 07:56:00 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2024.07.23 07:56:00 INFO  web[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2024.07.23 07:56:00 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2024.07.23 07:56:00 INFO  web[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2024.07.23 07:56:00 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2024.07.23 07:56:00 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2024.07.23 07:56:01 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2024.07.23 07:56:01 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy C# Code Quality and Security / 9.23.2.88755 / 7727153bb92db16ac5dedac33bfbbe6bb51e9666
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Clean as You Code / 2.3.0.1782 / 1db4e32c08cf9d0b999498e7ba4fd5849583dfdd
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Flex Code Quality and Security / 2.12.0.4568 / e8b2821a05db57b79b8ae85e3db1571f5b744273
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Go Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy HTML Code Quality and Security / 3.15.0.5107 / 2b98639c1367f85365fef88c2ba41ae5f19dfd66
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy IaC Code Quality and Security / 1.27.0.9518 / null
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JaCoCo / 1.3.0.1538 / 74a7798c7cea687c72ed9df40c93eb7ea2a58c49
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Java Code Quality and Security / 7.33.0.35775 / 0614cc7e6978a72c551bd3116b14036eb3ae991e
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JavaScript/TypeScript/CSS Code Quality and Security / 10.13.2.25981 / 5950215f3a0c4790a0fa13b26d5040f60f3eab2c
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Kotlin Code Quality and Security / 2.20.0.4382 / eb22cc4ed915de84e358135dd3f2ea2080de1441
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy PHP Code Quality and Security / 3.35.0.11659 / d830de9e38c9269851c1afefe12b8324c1481baf
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Python Code Quality and Security / 4.17.0.14845 / 60c11ea38cb028885067563b4ea10f4b031c697a
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Ruby Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Scala Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Text Code Quality and Security / 2.10.0.2188 / null
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy VB.NET Code Quality and Security / 9.23.2.88755 / 7727153bb92db16ac5dedac33bfbbe6bb51e9666
+2024.07.23 07:56:02 INFO  web[][o.s.s.p.ServerPluginManager] Deploy XML Code Quality and Security / 2.10.0.4108 / 34b16ba369117f6befc0b1e0866a069a80f6db2e
+2024.07.23 07:56:04 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2024.07.23 07:56:04 WARN  web[][o.s.a.s.w.WebService$Action] Description is not set on action api/monitoring/metrics
+2024.07.23 07:56:04 WARN  web[][o.s.a.s.w.WebService$Action] Since is not set on action api/monitoring/metrics
+2024.07.23 07:56:04 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/monitoring/metrics
+2024.07.23 07:56:04 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2024.07.23 07:56:04 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@4e4395c [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/components/update_key, ...]}]
+2024.07.23 07:56:04 INFO  web[][o.s.s.p.DetectPluginChange] Detect plugin changes
+2024.07.23 07:56:05 INFO  web[][o.h.v.i.util.Version] HV000001: Hibernate Validator null
+2024.07.23 07:56:06 WARN  web[][o.s.c.a.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@e19bb76-org.sonar.server.es.IndexCreator': Initialization of bean failed; nested exception is org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+2024.07.23 07:56:06 ERROR web[][o.s.s.p.Platform] Background initialization failed. Stopping SonarQube
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@e19bb76-org.sonar.server.es.IndexCreator': Initialization of bean failed; nested exception is org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:225)
+	at org.sonar.server.platform.platformlevel.PlatformLevel.start(PlatformLevel.java:80)
+	at org.sonar.server.platform.platformlevel.PlatformLevel4.start(PlatformLevel4.java:695)
+	at org.sonar.server.platform.PlatformImpl.start(PlatformImpl.java:214)
+	at org.sonar.server.platform.PlatformImpl.startLevel34Containers(PlatformImpl.java:194)
+	at org.sonar.server.platform.PlatformImpl$AutoStarterRunnable.runIfNotAborted(PlatformImpl.java:362)
+	at org.sonar.server.platform.PlatformImpl$1.doRun(PlatformImpl.java:113)
+	at org.sonar.server.platform.PlatformImpl$AutoStarterRunnable.run(PlatformImpl.java:346)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+	at org.sonar.server.es.EsClient.execute(EsClient.java:336)
+	at org.sonar.server.es.EsClient.get(EsClient.java:182)
+	at org.sonar.server.es.metadata.MetadataIndexImpl.getMetadata(MetadataIndexImpl.java:92)
+	at org.sonar.server.es.metadata.MetadataIndexImpl.getDbVendor(MetadataIndexImpl.java:83)
+	at org.sonar.server.es.metadata.EsDbCompatibilityImpl.hasSameDbVendor(EsDbCompatibilityImpl.java:37)
+	at org.sonar.server.es.metadata.EsDbCompatibilityImpl.markAsCompatible(EsDbCompatibilityImpl.java:43)
+	at org.sonar.server.es.IndexCreator.checkDbCompatibility(IndexCreator.java:191)
+	at org.sonar.server.es.IndexCreator.start(IndexCreator.java:87)
+	at org.sonar.core.platform.StartableBeanPostProcessor.postProcessBeforeInitialization(StartableBeanPostProcessor.java:33)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 17 common frames omitted
+Caused by: org.elasticsearch.ElasticsearchStatusException: Elasticsearch exception [type=no_shard_available_action_exception, reason=No shard available for [get [metadatas][dbVendor]: routing [null]]]
+	at org.elasticsearch.rest.BytesRestResponse.errorFromXContent(BytesRestResponse.java:178)
+	at org.elasticsearch.client.RestHighLevelClient.parseEntity(RestHighLevelClient.java:2484)
+	at org.elasticsearch.client.RestHighLevelClient.parseResponseException(RestHighLevelClient.java:2461)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:2184)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:2137)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:2105)
+	at org.elasticsearch.client.RestHighLevelClient.get(RestHighLevelClient.java:986)
+	at org.sonar.server.es.EsClient.lambda$get$17(EsClient.java:182)
+	at org.sonar.server.es.EsClient.execute(EsClient.java:334)
+	... 28 common frames omitted
+	Suppressed: org.elasticsearch.client.ResponseException: method [GET], host [http://localhost:9001], URI [/metadatas/_doc/dbVendor?stored_fields=value], status line [HTTP/1.1 503 Service Unavailable]
+{"error":{"root_cause":[{"type":"no_shard_available_action_exception","reason":"No shard available for [get [metadatas][dbVendor]: routing [null]]"}],"type":"no_shard_available_action_exception","reason":"No shard available for [get [metadatas][dbVendor]: routing [null]]"},"status":503}
+		at org.elasticsearch.client.RestClient.convertResponse(RestClient.java:347)
+		at org.elasticsearch.client.RestClient.performRequest(RestClient.java:313)
+		at org.elasticsearch.client.RestClient.performRequest(RestClient.java:288)
+		at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2699)
+		at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:2171)
+		... 33 common frames omitted
+2024.07.23 07:56:06 INFO  web[][o.s.p.ProcessEntryPoint] Hard stopping process
+2024.07.23 07:56:06 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2024.07.23 07:56:06 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2024.07.23 07:56:06 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2024.07.23 07:59:53 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2024.07.23 07:59:54 INFO  web[][o.s.s.a.TomcatHttpConnectorFactory] Starting Tomcat on port 9000
+2024.07.23 07:59:54 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 10.5.1.90531 / a69dd88808638ec33015277e236bca319314ce8b
+2024.07.23 07:59:55 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2024.07.23 07:59:55 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2024.07.23 07:59:55 INFO  web[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2024.07.23 07:59:55 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2024.07.23 07:59:55 INFO  web[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2024.07.23 07:59:55 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2024.07.23 07:59:55 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2024.07.23 07:59:56 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy C# Code Quality and Security / 9.23.2.88755 / 7727153bb92db16ac5dedac33bfbbe6bb51e9666
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Clean as You Code / 2.3.0.1782 / 1db4e32c08cf9d0b999498e7ba4fd5849583dfdd
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Flex Code Quality and Security / 2.12.0.4568 / e8b2821a05db57b79b8ae85e3db1571f5b744273
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Go Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy HTML Code Quality and Security / 3.15.0.5107 / 2b98639c1367f85365fef88c2ba41ae5f19dfd66
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy IaC Code Quality and Security / 1.27.0.9518 / null
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JaCoCo / 1.3.0.1538 / 74a7798c7cea687c72ed9df40c93eb7ea2a58c49
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Java Code Quality and Security / 7.33.0.35775 / 0614cc7e6978a72c551bd3116b14036eb3ae991e
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JavaScript/TypeScript/CSS Code Quality and Security / 10.13.2.25981 / 5950215f3a0c4790a0fa13b26d5040f60f3eab2c
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Kotlin Code Quality and Security / 2.20.0.4382 / eb22cc4ed915de84e358135dd3f2ea2080de1441
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy PHP Code Quality and Security / 3.35.0.11659 / d830de9e38c9269851c1afefe12b8324c1481baf
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Python Code Quality and Security / 4.17.0.14845 / 60c11ea38cb028885067563b4ea10f4b031c697a
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Ruby Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Scala Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Text Code Quality and Security / 2.10.0.2188 / null
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy VB.NET Code Quality and Security / 9.23.2.88755 / 7727153bb92db16ac5dedac33bfbbe6bb51e9666
+2024.07.23 07:59:56 INFO  web[][o.s.s.p.ServerPluginManager] Deploy XML Code Quality and Security / 2.10.0.4108 / 34b16ba369117f6befc0b1e0866a069a80f6db2e
+2024.07.23 07:59:59 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2024.07.23 07:59:59 WARN  web[][o.s.a.s.w.WebService$Action] Description is not set on action api/monitoring/metrics
+2024.07.23 07:59:59 WARN  web[][o.s.a.s.w.WebService$Action] Since is not set on action api/monitoring/metrics
+2024.07.23 07:59:59 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/monitoring/metrics
+2024.07.23 07:59:59 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2024.07.23 07:59:59 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@4e4395c [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/components/update_key, ...]}]
+2024.07.23 07:59:59 INFO  web[][o.s.s.p.DetectPluginChange] Detect plugin changes
+2024.07.23 08:00:00 INFO  web[][o.h.v.i.util.Version] HV000001: Hibernate Validator null
+2024.07.23 08:00:00 WARN  web[][o.s.c.a.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@e19bb76-org.sonar.server.es.IndexCreator': Initialization of bean failed; nested exception is org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+2024.07.23 08:00:00 ERROR web[][o.s.s.p.Platform] Background initialization failed. Stopping SonarQube
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@e19bb76-org.sonar.server.es.IndexCreator': Initialization of bean failed; nested exception is org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:225)
+	at org.sonar.server.platform.platformlevel.PlatformLevel.start(PlatformLevel.java:80)
+	at org.sonar.server.platform.platformlevel.PlatformLevel4.start(PlatformLevel4.java:695)
+	at org.sonar.server.platform.PlatformImpl.start(PlatformImpl.java:214)
+	at org.sonar.server.platform.PlatformImpl.startLevel34Containers(PlatformImpl.java:194)
+	at org.sonar.server.platform.PlatformImpl$AutoStarterRunnable.runIfNotAborted(PlatformImpl.java:362)
+	at org.sonar.server.platform.PlatformImpl$1.doRun(PlatformImpl.java:113)
+	at org.sonar.server.platform.PlatformImpl$AutoStarterRunnable.run(PlatformImpl.java:346)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+	at org.sonar.server.es.EsClient.execute(EsClient.java:336)
+	at org.sonar.server.es.EsClient.get(EsClient.java:182)
+	at org.sonar.server.es.metadata.MetadataIndexImpl.getMetadata(MetadataIndexImpl.java:92)
+	at org.sonar.server.es.metadata.MetadataIndexImpl.getDbVendor(MetadataIndexImpl.java:83)
+	at org.sonar.server.es.metadata.EsDbCompatibilityImpl.hasSameDbVendor(EsDbCompatibilityImpl.java:37)
+	at org.sonar.server.es.metadata.EsDbCompatibilityImpl.markAsCompatible(EsDbCompatibilityImpl.java:43)
+	at org.sonar.server.es.IndexCreator.checkDbCompatibility(IndexCreator.java:191)
+	at org.sonar.server.es.IndexCreator.start(IndexCreator.java:87)
+	at org.sonar.core.platform.StartableBeanPostProcessor.postProcessBeforeInitialization(StartableBeanPostProcessor.java:33)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 17 common frames omitted
+Caused by: org.elasticsearch.ElasticsearchStatusException: Elasticsearch exception [type=no_shard_available_action_exception, reason=No shard available for [get [metadatas][dbVendor]: routing [null]]]
+	at org.elasticsearch.rest.BytesRestResponse.errorFromXContent(BytesRestResponse.java:178)
+	at org.elasticsearch.client.RestHighLevelClient.parseEntity(RestHighLevelClient.java:2484)
+	at org.elasticsearch.client.RestHighLevelClient.parseResponseException(RestHighLevelClient.java:2461)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:2184)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:2137)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:2105)
+	at org.elasticsearch.client.RestHighLevelClient.get(RestHighLevelClient.java:986)
+	at org.sonar.server.es.EsClient.lambda$get$17(EsClient.java:182)
+	at org.sonar.server.es.EsClient.execute(EsClient.java:334)
+	... 28 common frames omitted
+	Suppressed: org.elasticsearch.client.ResponseException: method [GET], host [http://localhost:9001], URI [/metadatas/_doc/dbVendor?stored_fields=value], status line [HTTP/1.1 503 Service Unavailable]
+{"error":{"root_cause":[{"type":"no_shard_available_action_exception","reason":"No shard available for [get [metadatas][dbVendor]: routing [null]]"}],"type":"no_shard_available_action_exception","reason":"No shard available for [get [metadatas][dbVendor]: routing [null]]"},"status":503}
+		at org.elasticsearch.client.RestClient.convertResponse(RestClient.java:347)
+		at org.elasticsearch.client.RestClient.performRequest(RestClient.java:313)
+		at org.elasticsearch.client.RestClient.performRequest(RestClient.java:288)
+		at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2699)
+		at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:2171)
+		... 33 common frames omitted
+2024.07.23 08:00:00 INFO  web[][o.s.p.ProcessEntryPoint] Hard stopping process
+2024.07.23 08:00:00 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2024.07.23 08:00:01 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2024.07.23 08:00:01 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped
+2024.07.23 08:00:56 INFO  web[][o.s.p.ProcessEntryPoint] Starting Web Server
+2024.07.23 08:00:56 INFO  web[][o.s.s.a.TomcatHttpConnectorFactory] Starting Tomcat on port 9000
+2024.07.23 08:00:57 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 10.5.1.90531 / a69dd88808638ec33015277e236bca319314ce8b
+2024.07.23 08:00:57 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2024.07.23 08:00:57 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /opt/sonarqube/data
+2024.07.23 08:00:57 INFO  web[][o.s.d.DefaultDatabase] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar;NON_KEYWORDS=VALUE
+2024.07.23 08:00:57 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Starting...
+2024.07.23 08:00:57 INFO  web[][c.z.h.p.HikariPool] HikariPool-1 - Added connection conn2: url=jdbc:h2:tcp://127.0.0.1:9092/sonar user=
+2024.07.23 08:00:57 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Start completed.
+2024.07.23 08:00:57 WARN  web[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /opt/sonarqube
+2024.07.23 08:00:59 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy C# Code Quality and Security / 9.23.2.88755 / 7727153bb92db16ac5dedac33bfbbe6bb51e9666
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Clean as You Code / 2.3.0.1782 / 1db4e32c08cf9d0b999498e7ba4fd5849583dfdd
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Flex Code Quality and Security / 2.12.0.4568 / e8b2821a05db57b79b8ae85e3db1571f5b744273
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Go Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy HTML Code Quality and Security / 3.15.0.5107 / 2b98639c1367f85365fef88c2ba41ae5f19dfd66
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy IaC Code Quality and Security / 1.27.0.9518 / null
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JaCoCo / 1.3.0.1538 / 74a7798c7cea687c72ed9df40c93eb7ea2a58c49
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Java Code Quality and Security / 7.33.0.35775 / 0614cc7e6978a72c551bd3116b14036eb3ae991e
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy JavaScript/TypeScript/CSS Code Quality and Security / 10.13.2.25981 / 5950215f3a0c4790a0fa13b26d5040f60f3eab2c
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Kotlin Code Quality and Security / 2.20.0.4382 / eb22cc4ed915de84e358135dd3f2ea2080de1441
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy PHP Code Quality and Security / 3.35.0.11659 / d830de9e38c9269851c1afefe12b8324c1481baf
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Python Code Quality and Security / 4.17.0.14845 / 60c11ea38cb028885067563b4ea10f4b031c697a
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Ruby Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Scala Code Quality and Security / 1.15.0.4655 / 28938525c4093d5e9fa4e858535bbcb60af7f066
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy Text Code Quality and Security / 2.10.0.2188 / null
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy VB.NET Code Quality and Security / 9.23.2.88755 / 7727153bb92db16ac5dedac33bfbbe6bb51e9666
+2024.07.23 08:00:59 INFO  web[][o.s.s.p.ServerPluginManager] Deploy XML Code Quality and Security / 2.10.0.4108 / 34b16ba369117f6befc0b1e0866a069a80f6db2e
+2024.07.23 08:01:02 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [http://localhost:9001]
+2024.07.23 08:01:02 WARN  web[][o.s.a.s.w.WebService$Action] Description is not set on action api/monitoring/metrics
+2024.07.23 08:01:02 WARN  web[][o.s.a.s.w.WebService$Action] Since is not set on action api/monitoring/metrics
+2024.07.23 08:01:02 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/monitoring/metrics
+2024.07.23 08:01:02 WARN  web[][o.s.a.s.w.WebService$Action] The response example is not set on action api/system/liveness
+2024.07.23 08:01:02 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.platform.web.WebServiceFilter@4e4395c [pattern=UrlPattern{inclusions=[/api/system/migrate_db.*, ...], exclusions=[/api/components/update_key, ...]}]
+2024.07.23 08:01:02 INFO  web[][o.s.s.p.DetectPluginChange] Detect plugin changes
+2024.07.23 08:01:03 INFO  web[][o.h.v.i.util.Version] HV000001: Hibernate Validator null
+2024.07.23 08:01:03 WARN  web[][o.s.c.a.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@e19bb76-org.sonar.server.es.IndexCreator': Initialization of bean failed; nested exception is org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+2024.07.23 08:01:03 ERROR web[][o.s.s.p.Platform] Background initialization failed. Stopping SonarQube
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdk.internal.loader.ClassLoaders$AppClassLoader@e19bb76-org.sonar.server.es.IndexCreator': Initialization of bean failed; nested exception is org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:225)
+	at org.sonar.server.platform.platformlevel.PlatformLevel.start(PlatformLevel.java:80)
+	at org.sonar.server.platform.platformlevel.PlatformLevel4.start(PlatformLevel4.java:695)
+	at org.sonar.server.platform.PlatformImpl.start(PlatformImpl.java:214)
+	at org.sonar.server.platform.PlatformImpl.startLevel34Containers(PlatformImpl.java:194)
+	at org.sonar.server.platform.PlatformImpl$AutoStarterRunnable.runIfNotAborted(PlatformImpl.java:362)
+	at org.sonar.server.platform.PlatformImpl$1.doRun(PlatformImpl.java:113)
+	at org.sonar.server.platform.PlatformImpl$AutoStarterRunnable.run(PlatformImpl.java:346)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.sonar.server.es.ElasticsearchException: Fail to execute es requestES get request for key 'dbVendor' on index 'metadatas'
+	at org.sonar.server.es.EsClient.execute(EsClient.java:336)
+	at org.sonar.server.es.EsClient.get(EsClient.java:182)
+	at org.sonar.server.es.metadata.MetadataIndexImpl.getMetadata(MetadataIndexImpl.java:92)
+	at org.sonar.server.es.metadata.MetadataIndexImpl.getDbVendor(MetadataIndexImpl.java:83)
+	at org.sonar.server.es.metadata.EsDbCompatibilityImpl.hasSameDbVendor(EsDbCompatibilityImpl.java:37)
+	at org.sonar.server.es.metadata.EsDbCompatibilityImpl.markAsCompatible(EsDbCompatibilityImpl.java:43)
+	at org.sonar.server.es.IndexCreator.checkDbCompatibility(IndexCreator.java:191)
+	at org.sonar.server.es.IndexCreator.start(IndexCreator.java:87)
+	at org.sonar.core.platform.StartableBeanPostProcessor.postProcessBeforeInitialization(StartableBeanPostProcessor.java:33)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 17 common frames omitted
+Caused by: org.elasticsearch.ElasticsearchStatusException: Elasticsearch exception [type=no_shard_available_action_exception, reason=No shard available for [get [metadatas][dbVendor]: routing [null]]]
+	at org.elasticsearch.rest.BytesRestResponse.errorFromXContent(BytesRestResponse.java:178)
+	at org.elasticsearch.client.RestHighLevelClient.parseEntity(RestHighLevelClient.java:2484)
+	at org.elasticsearch.client.RestHighLevelClient.parseResponseException(RestHighLevelClient.java:2461)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:2184)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:2137)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:2105)
+	at org.elasticsearch.client.RestHighLevelClient.get(RestHighLevelClient.java:986)
+	at org.sonar.server.es.EsClient.lambda$get$17(EsClient.java:182)
+	at org.sonar.server.es.EsClient.execute(EsClient.java:334)
+	... 28 common frames omitted
+	Suppressed: org.elasticsearch.client.ResponseException: method [GET], host [http://localhost:9001], URI [/metadatas/_doc/dbVendor?stored_fields=value], status line [HTTP/1.1 503 Service Unavailable]
+{"error":{"root_cause":[{"type":"no_shard_available_action_exception","reason":"No shard available for [get [metadatas][dbVendor]: routing [null]]"}],"type":"no_shard_available_action_exception","reason":"No shard available for [get [metadatas][dbVendor]: routing [null]]"},"status":503}
+		at org.elasticsearch.client.RestClient.convertResponse(RestClient.java:347)
+		at org.elasticsearch.client.RestClient.performRequest(RestClient.java:313)
+		at org.elasticsearch.client.RestClient.performRequest(RestClient.java:288)
+		at org.elasticsearch.client.RestHighLevelClient.performClientRequest(RestHighLevelClient.java:2699)
+		at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:2171)
+		... 33 common frames omitted
+2024.07.23 08:01:03 INFO  web[][o.s.p.ProcessEntryPoint] Hard stopping process
+2024.07.23 08:01:03 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown initiated...
+2024.07.23 08:01:04 INFO  web[][c.z.h.HikariDataSource] HikariPool-1 - Shutdown completed.
+2024.07.23 08:01:04 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database stopped

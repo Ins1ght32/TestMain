@@ -23,7 +23,7 @@ pipeline {
 				}
 		}
 		
-		stage('Deploy Web App') {
+		stage('Integration') {
 			steps {
 				script {
                     // Check if the web app is up

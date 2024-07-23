@@ -1,7 +1,32 @@
 <?php
 function containsXSS($input) {
-    $pattern = '/<.*?>/';
-    return preg_match($pattern, $input);
+    // List of common XSS patterns
+    $patterns = [
+        '/<script\b[^>]*>(.*?)<\/script>/is', // Script tags
+        '/<img\b[^>]*src[^>]*=([^>]*>)/is', // IMG tags with SRC attributes
+        '/<iframe\b[^>]*>(.*?)<\/iframe>/is', // IFRAME tags
+        '/<object\b[^>]*>(.*?)<\/object>/is', // OBJECT tags
+        '/<embed\b[^>]*>(.*?)<\/embed>/is', // EMBED tags
+        '/<link\b[^>]*>(.*?)<\/link>/is', // LINK tags
+        '/<style\b[^>]*>(.*?)<\/style>/is', // STYLE tags
+        '/<base\b[^>]*>(.*?)<\/base>/is', // BASE tags
+        '/<form\b[^>]*>(.*?)<\/form>/is', // FORM tags
+        '/<input\b[^>]*>(.*?)<\/input>/is', // INPUT tags
+        '/<textarea\b[^>]*>(.*?)<\/textarea>/is', // TEXTAREA tags
+        '/<meta\b[^>]*>(.*?)>/is', // META tags
+        '/on\w+\s*=\s*["\'][^"\']*["\']/is', // Inline event handlers like onload, onclick
+        '/javascript\s*:\s*/is', // javascript: protocol
+        '/vbscript\s*:\s*/is', // vbscript: protocol
+        '/data\s*:\s*/is', // data: protocol
+        '/<a\b[^>]*href[^>]*=([^>]*>)/is' // A tags with HREF attributes
+    ];
+
+    foreach ($patterns as $pattern) {
+        if (preg_match($pattern, $input)) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function containsSQLInjection($input) {
