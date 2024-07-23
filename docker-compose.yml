@@ -1,0 +1,45 @@
+version: '3'
+
+services:
+  jenkins:
+    container_name: jenkins
+    build: ./jenkins
+    ports:
+      - '8080:8080'
+      - '443:8443'
+      - '50000:50000'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./jenkins_home:/var/jenkins_home
+  
+  webapp:    
+    image: php:7.2-apache
+    container_name: webapp
+    volumes:
+      - "./src:/var/www/html"
+    ports:
+      - "80:80"
+    
+  # SonarQube service
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube2
+    ports:
+      - "9000:9000"
+    environment:
+      SONARQUBE_JDBC_USERNAME: admin
+      SONARQUBE_JDBC_PASSWORD: 2200648
+      
+  git-server:
+    build:
+      dockerfile: gitserver.Dockerfile
+      context: .
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./repos:/var/www/git
+
+volumes:
+  jenkins_data:
+    driver: local
