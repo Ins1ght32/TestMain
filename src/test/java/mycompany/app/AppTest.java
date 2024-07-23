@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class AppTest {
     WebDriver driver;
     WebDriverWait wait;
-    String url = "http://192.168.1.188"; // Update this URL to your local server address
+    String url = "http://172.20.0.4"; // Update this URL to your local server address
     String validQuery = "safe search";
     String invalidQuery = "<script>alert('XSS');</script>";
 

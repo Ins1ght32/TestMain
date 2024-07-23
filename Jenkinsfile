@@ -33,7 +33,7 @@ pipeline {
                         SUCCESS=0
 
                         while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-                            if curl -sSf http://172.18.0.2:80 >/dev/null; then
+                            if curl -sSf http://172.20.0.4:80 >/dev/null; then
                                 echo "Web app is up and running."
                                 SUCCESS=1
 								echo 'Now...'
